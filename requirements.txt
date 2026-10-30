@@ -1,0 +1,7 @@
+numpy
+opencv-python
+matplotlib
+ultralytics
+
+# PyTorch CUDA sürümü, NVIDIA GPU'ya göre resmi PyTorch komutuyla kurulmalıdır.
+# Örnek: py -3 -m pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128

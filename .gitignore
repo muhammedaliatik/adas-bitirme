@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Large model weights (GitHub normal file limitini aşabilir)
+*.pt
+*.onnx
+
+# Local videos and generated outputs
+*.mp4
+*.avi
+*.mov
+*.mkv
+test_hibrit*.mp4
+dashcam_kirp*.mp4
+gece_hibrit*.mp4
+
+# Generated reports and images
+model_karsilastirma.png
+runs/
+outputs/
+
+# Notebook temporary files
+.ipynb_checkpoints/
+
+# Eski/arsiv kodlar (yerelde tutulur, ana repoya gönderilmez)
+adas_pipeline.py
+orijinal_kod_yedek.ipynb
